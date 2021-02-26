@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Century gothic;
+
+}
+header{
+    background-image: url("image2.jpeg");
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+ul{
+    list-style:none;
+    float:right;
+    margin-right:20px;
+}
+ul li{
+    display:inline-block;
+}
+ul li a{
+    text-decoration:none;
+    padding:5px 10px;
+    border:1px solid transparent;
+    color:white;
+    font-weight:bold;
+    margin-left:5px;
+    transition:0.8s ease;
+}
+ul li a:hover{
+    background-color:white;
+    color:black;
+}
+ul li.active a{
+    background-color:white;
+    color:black;
+}
+.logo{
+    margin-left:100px;
+    padding-top:10px;
+}
+.logo img{
+    padding-top:50px;
+    float:left;
+    width:200px;
+    height:400px;
+   
+}
+.main{
+    max-width:1200px;
+    margin:auto;
+}
+.myself{
+    background-image: url("image2.jpeg");
+    height:auto;
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+.h1heading{
+    margin-top:5px;
+    margin-left:500px;
+}
+#about ,#skills,#contact,#languages,#education,#experience{
+    border: 5px solid white;
+    width:800px;
+    height:250px;
+    margin-left:180px;
+    padding:22px;
+}
+#contacting{
+     border:2px solid deeppink;
+     background-color: rgb(102, 38, 102);
+     padding-left:180px;
+}
